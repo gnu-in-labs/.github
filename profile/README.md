@@ -11,6 +11,8 @@
 >  
 > Si vous cherchez une démonstration de puissance artificielle, ce n’est probablement pas pour vous.  
 > Si vous cherchez du code net, une posture franche, une automatisation utile et une infrastructure qu’on peut expliquer sans théâtre, alors oui : on parle le même langage.
+> 
+> Nous utilisons l’automatisation et les agents comme outils d’inspection, de staging et d’assistance — pas comme autorité finale. Un changement sérieux doit être lisible, testable, traçable et réversible.
 
 [gnu6.live (VPS & Services en ligne)](https://gnu6.live) | admin@gnu6.live
 
