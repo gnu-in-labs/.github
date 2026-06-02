@@ -1,6 +1,6 @@
-# gnu-in-labs
+# gnu.in.labs
 
-> **gnu6 ne vend pas une illusion de fluidité.**  
+> **gnu.in.labs ne vend pas une illusion de fluidité.**  
 > On construit des systèmes qui doivent tenir quand l’enthousiasme, le réseau ou les humains sont imparfaits.  
 >  
 > Notre stance est simple : moins de folklore produit, plus de cohérence technique ; moins de promesses vagues, plus d’automatisation réelle ; moins de magie marketing, plus de code lisible, testable et opérable.  
@@ -12,4 +12,7 @@
 > Si vous cherchez une démonstration de puissance artificielle, ce n’est probablement pas pour vous.  
 > Si vous cherchez du code net, une posture franche, une automatisation utile et une infrastructure qu’on peut expliquer sans théâtre, alors oui : on parle le même langage.
 
-[gnu6.live](https://gnu6.live) | admin@gnu6.live
+[gnu6.live (VPS & Services en ligne)](https://gnu6.live) | admin@gnu6.live
+
+---
+&copy; gnuinlabs inc.
