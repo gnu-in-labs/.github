@@ -1,0 +1,17 @@
+name: Feature
+description: Proposer une évolution
+labels: ["kind:feature"]
+body:
+  - type: textarea
+    attributes:
+      label: Problème à résoudre
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Proposition
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Alternatives considérées

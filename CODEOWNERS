@@ -1,0 +1,4 @@
+*                         @gnu-in-labs/core
+.github/workflows/*       @gnu-in-labs/infra
+docs/*                    @gnu-in-labs/docs
+security/*                @gnu-in-labs/security
