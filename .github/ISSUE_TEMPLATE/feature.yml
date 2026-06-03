@@ -1,17 +1,23 @@
 name: Feature
-description: Proposer une évolution
+description: Propose an improvement
 labels: ["kind:feature"]
 body:
   - type: textarea
     attributes:
-      label: Problème à résoudre
+      label: Problem to solve
+      description: What gets better if this exists?
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Proposition
+      label: Proposal
+      description: What should change?
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Alternatives considérées
+      label: Alternatives considered
+  - type: textarea
+    attributes:
+      label: Verification or evidence
+      description: What would prove this is useful, safe, or ready?

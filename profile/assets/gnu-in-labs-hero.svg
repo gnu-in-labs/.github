@@ -1,0 +1,69 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">gnu.in.labs public profile banner</title>
+  <desc id="desc">A dark technical interface banner with layered panels, signal lines, and local-first desktop runtime labels.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071013"/>
+      <stop offset="0.35" stop-color="#102023"/>
+      <stop offset="0.68" stop-color="#211826"/>
+      <stop offset="1" stop-color="#2A1E12"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="160" y1="420" x2="1080" y2="80" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#55D6BE"/>
+      <stop offset="0.42" stop-color="#F2C14E"/>
+      <stop offset="0.72" stop-color="#F78154"/>
+      <stop offset="1" stop-color="#B48EED"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" stroke="#FFFFFF" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="520" rx="34" fill="url(#bg)"/>
+  <rect width="1200" height="520" rx="34" fill="url(#grid)"/>
+
+  <path d="M118 390 C235 294 301 364 419 254 C533 148 670 244 782 162 C901 75 998 109 1115 58" stroke="url(#signal)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M122 424 C278 354 351 402 493 310 C640 214 733 263 899 176 C990 128 1045 124 1120 120" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2" stroke-linecap="round"/>
+  <path d="M96 326 C206 288 272 316 372 230 C504 118 624 184 736 138 C828 99 932 88 1038 36" stroke="#55D6BE" stroke-opacity="0.28" stroke-width="2" stroke-linecap="round"/>
+
+  <g filter="url(#soft-shadow)">
+    <rect x="68" y="72" width="532" height="276" rx="22" fill="#0B1518" fill-opacity="0.76" stroke="#D7FFF1" stroke-opacity="0.24"/>
+    <rect x="84" y="88" width="96" height="10" rx="5" fill="#55D6BE"/>
+    <rect x="196" y="88" width="52" height="10" rx="5" fill="#F2C14E"/>
+    <rect x="264" y="88" width="38" height="10" rx="5" fill="#F78154"/>
+    <text x="88" y="156" fill="#F7FBF7" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="56" font-weight="800" letter-spacing="0">gnu.in.labs</text>
+    <text x="90" y="206" fill="#BFE9DD" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="22" font-weight="600">local-first desktop systems</text>
+    <text x="90" y="248" fill="#E6EEE9" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18">automation should be visible, bounded,</text>
+    <text x="90" y="278" fill="#E6EEE9" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18">testable, traceable, and reversible</text>
+  </g>
+
+  <g filter="url(#soft-shadow)">
+    <rect x="690" y="106" width="392" height="300" rx="22" fill="#11171D" fill-opacity="0.72" stroke="#FFE3A3" stroke-opacity="0.24"/>
+    <text x="724" y="154" fill="#F7FBF7" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="700">runtime posture</text>
+    <g stroke-width="2">
+      <rect x="724" y="188" width="144" height="58" rx="14" fill="#0B1518" stroke="#55D6BE" stroke-opacity="0.58"/>
+      <rect x="908" y="188" width="144" height="58" rx="14" fill="#0B1518" stroke="#F2C14E" stroke-opacity="0.62"/>
+      <rect x="724" y="286" width="144" height="58" rx="14" fill="#0B1518" stroke="#F78154" stroke-opacity="0.62"/>
+      <rect x="908" y="286" width="144" height="58" rx="14" fill="#0B1518" stroke="#B48EED" stroke-opacity="0.62"/>
+      <path d="M868 217 H908" stroke="#E6EEE9" stroke-opacity="0.32"/>
+      <path d="M796 246 V286" stroke="#E6EEE9" stroke-opacity="0.32"/>
+      <path d="M980 246 V286" stroke="#E6EEE9" stroke-opacity="0.32"/>
+    </g>
+    <text x="746" y="224" fill="#EAF8F3" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="700">source</text>
+    <text x="932" y="224" fill="#EAF8F3" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="700">verify</text>
+    <text x="747" y="322" fill="#EAF8F3" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="700">stage</text>
+    <text x="931" y="322" fill="#EAF8F3" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="700">promote</text>
+  </g>
+
+  <g opacity="0.95">
+    <rect x="80" y="404" width="174" height="42" rx="21" fill="#D7FFF1" fill-opacity="0.12" stroke="#D7FFF1" stroke-opacity="0.24"/>
+    <text x="108" y="431" fill="#D7FFF1" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="700">local-first</text>
+    <rect x="274" y="404" width="210" height="42" rx="21" fill="#FFE3A3" fill-opacity="0.12" stroke="#FFE3A3" stroke-opacity="0.24"/>
+    <text x="306" y="431" fill="#FFE3A3" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="700">agent-assisted</text>
+    <rect x="504" y="404" width="206" height="42" rx="21" fill="#FFD0C2" fill-opacity="0.12" stroke="#FFD0C2" stroke-opacity="0.24"/>
+    <text x="535" y="431" fill="#FFD0C2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="700">human-gated</text>
+  </g>
+</svg>

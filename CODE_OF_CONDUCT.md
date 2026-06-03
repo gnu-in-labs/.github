@@ -1,32 +1,46 @@
-# Code de conduite
+# Code of Conduct
 
-## Principe
-Le projet accepte la contradiction technique, pas le mépris personnel.
+## Principle
 
-## Attendus
-- critique du code, pas des personnes
-- désaccords argumentés
-- transparence sur les limites
-- respect du temps des mainteneurs
+GNU.IN accepts technical disagreement. It does not accept personal contempt.
 
-## Inacceptables
-- attaques personnelles
-- harcèlement
-- intimidation
-- demandes répétées sans lecture préalable
-- manipulations sociales autour des accès ou de la sécurité
+## Expected Behavior
 
-## Signalement
-Contacter : security@gnu6.live ou admin@gnu6.live
-Décrire :
-- contexte
-- faits
-- captures/logs si utiles
-- impact
+- Criticize code, claims, designs, and processes rather than people.
+- Make disagreements specific and evidence-based.
+- Be transparent about uncertainty and limits.
+- Respect maintainers' time and attention.
+- Prefer actionable correction over dunking.
 
-## Application
-Les mainteneurs peuvent :
-- rappeler les règles
-- fermer une discussion
-- limiter l’accès
-- bannir en cas de récidive grave
+## Unacceptable Behavior
+
+- Personal attacks.
+- Harassment or intimidation.
+- Repeated demands after boundaries have been stated.
+- Social manipulation around access, trust, or security.
+- Public disclosure of private security issues before coordination.
+
+## Reporting
+
+Contact:
+
+- `security@gnu6.live`
+- `admin@gnu6.live`
+
+Include:
+
+- context;
+- facts;
+- screenshots or logs if useful;
+- expected impact;
+- whether immediate action is needed.
+
+## Enforcement
+
+Maintainers may:
+
+- remind participants of the rules;
+- close a discussion;
+- limit access;
+- remove comments;
+- block participants after serious or repeated violations.

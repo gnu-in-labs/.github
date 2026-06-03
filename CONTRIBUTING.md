@@ -1,37 +1,57 @@
-# Contribuer
+# Contributing
 
-## Avant d’ouvrir une PR
-- lire le README
-- reproduire localement
-- vérifier les issues existantes
-- ouvrir une issue si le changement est structurel
+Thanks for taking the time to look closely. GNU.IN work is experimental, agent-assisted, and still becoming public in stages, so specific corrections are more useful than broad approval.
+
+## Before Opening a Pull Request
+
+- Read the public profile and repository README.
+- Check whether an issue or discussion already covers the topic.
+- Reproduce the problem locally when the change is technical.
+- Open an issue first when the change affects project stance, security boundaries, release policy, public claims, or live-runtime behavior.
 
 ## Branches
+
+Recommended branch prefixes:
+
 - `feat/...`
 - `fix/...`
 - `docs/...`
+- `security/...`
 - `chore/...`
 
 ## Commits
-Convention recommandée :
+
+Recommended commit prefixes:
+
 - `feat:`
 - `fix:`
 - `docs:`
 - `refactor:`
 - `test:`
+- `security:`
 - `chore:`
 
-## Critères d’acceptation
-- code formaté
-- lint vert
-- tests verts
-- docs mises à jour
-- changelog/release note si impact utilisateur
+## Acceptance Criteria
 
-## PR
-La PR doit expliquer :
-- le problème
-- la décision
-- le risque
-- la stratégie de test
-- l’impact de migration si nécessaire
+A useful contribution should make the project easier to inspect, test, explain, or operate.
+
+Before requesting review, check:
+
+- formatting is applied;
+- relevant lint or tests pass;
+- docs are updated when public behavior or claims change;
+- security-sensitive changes describe the risk boundary;
+- user-facing changes include release notes or changelog notes when appropriate.
+
+## Pull Requests
+
+Every PR should explain:
+
+- the problem;
+- the decision;
+- the risk boundary;
+- how it was tested;
+- what remains unverified;
+- any migration, rollback, or release impact.
+
+Agent-assisted work is welcome, but generated output is not proof. If an agent helped, the PR should still be readable, reviewable, and backed by evidence.
