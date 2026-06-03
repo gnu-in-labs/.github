@@ -26,15 +26,15 @@ GNU.IN work can be radical in values and still conservative in public promises:
 - make automation boundaries explicit;
 - keep the language accessible to reviewers outside the project.
 
-## Update checklist
+## Update Guidelines
 
 Before changing the public profile:
 
-- [ ] Keep the main public text in English.
-- [ ] Check that images have useful `alt` text.
-- [ ] Keep visual assets local to this repository when practical.
-- [ ] Avoid linking to private repositories as if public visitors can open them.
-- [ ] Keep contact and security reporting paths current.
+- Keep the main public text in English.
+- Check that images have useful `alt` text.
+- Keep visual assets local to this repository when practical.
+- Avoid linking to private repositories as if public visitors can open them.
+- Keep contact and security reporting paths current.
 
 ## Live surface
 
