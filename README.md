@@ -12,7 +12,7 @@ It contains the public-facing defaults that should make the organization easier 
 - visual assets used by the public profile;
 - default issue templates;
 - the pull request template;
-- contribution, security, license, and ownership documents.
+- contribution, code of conduct, security, license, and ownership documents.
 
 ## Public-page stance
 
