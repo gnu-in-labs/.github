@@ -6,7 +6,7 @@
 
 **gnu.in.labs builds local-first desktop systems, public infrastructure, and reviewable automation for people who want their computers to remain under their control.**
 
-This is a public-facing lab for GNU.IN OS and related infrastructure experiments. The work is serious, but it is not being presented as a finished consumer operating system, a production distribution, or a safe autonomous administrator.
+This is a public-facing lab for Gnosis.OS and related infrastructure experiments. The work is serious, but it is not being presented as a finished consumer operating system, a production distribution, or a safe autonomous administrator.
 
 Modern computers already contain powerful local resources: CPU, RAM, GPU, storage, sensors, files, applications, and user context. GNU.IN explores how those resources can be made more inspectable, scriptable, reversible, and useful without quietly turning the user's machine into a passive client for someone else's platform.
 
@@ -20,7 +20,7 @@ The public goal is not to sound more mature than the work. The goal is to make t
 | --- | --- | --- |
 | [gnu6.live](https://gnu6.live) | Online | Public web and services entrypoint for GNU.IN experiments. |
 | `.github` | Public | Organization profile, contribution defaults, security policy, and issue templates. |
-| GNU.IN OS | Public-readiness in progress | Experimental local-first desktop runtime and shell environment. Claims are being shaped before broader exposure. |
+| Gnosis.OS | Public-readiness in progress | Experimental local-first desktop runtime and shell environment. Claims are being shaped before broader exposure. |
 
 ## Principles
 
@@ -58,9 +58,9 @@ The preferred GNU.IN pattern is:
 5. Live mutation requires explicit human approval.
 6. Promotion paths include rollback, backup, or recovery steps.
 
-## GNU.IN OS direction
+## Gnosis.OS direction
 
-GNU.IN OS is a local-first desktop runtime direction. It is not a Linux replacement claim.
+Gnosis.OS is a local-first desktop runtime direction. It is not a Linux replacement claim.
 
 It explores:
 
@@ -71,7 +71,7 @@ It explores:
 - reviewable automation for desktop configuration and system maintenance;
 - an interface that a power user can own, and that a non-expert could eventually want to use.
 
-Right now, GNU.IN OS should be read as a research-product: coherent enough to deserve real engineering practice, but not mature enough to promise broad user support.
+Right now, Gnosis.OS should be read as a research-product: coherent enough to deserve real engineering practice, but not mature enough to promise broad user support.
 
 ## What this is not
 
