@@ -10,9 +10,10 @@ It contains the public-facing defaults that should make the organization easier 
 
 - the organization profile in [`profile/README.md`](./profile/README.md);
 - visual assets used by the public profile;
-- default issue templates;
+- default issue templates and their contact routing in [`.github/ISSUE_TEMPLATE/config.yml`](./.github/ISSUE_TEMPLATE/config.yml);
 - the pull request template;
-- contribution, code of conduct, security, license, and ownership documents.
+- contribution, code of conduct, security, support, license, and ownership documents;
+- starter workflow templates in [`workflow-templates/`](./workflow-templates/) offered to all organization repositories.
 
 ## Public-page stance
 

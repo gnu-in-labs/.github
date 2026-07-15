@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security vulnerability report
+    url: https://github.com/gnu-in-labs/.github/blob/main/SECURITY.md
+    about: Do not open a public issue for a vulnerability. Follow the security policy and report by email.
+  - name: General questions and contact
+    url: https://github.com/gnu-in-labs/.github/blob/main/SUPPORT.md
+    about: Where to ask questions and what support to expect while the project is experimental.
+  - name: gnu6.live
+    url: https://gnu6.live
+    about: Public web and services entrypoint for GNU.IN experiments.

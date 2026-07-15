@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Checklist icon for the GNU.IN basic checks starter workflow">
+  <rect x="4" y="4" width="40" height="40" rx="8" fill="#1a1f2b"/>
+  <path d="M13 17.5l3.5 3.5 6-6.5" fill="none" stroke="#5ad1a5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="27" y1="18" x2="36" y2="18" stroke="#8b93a7" stroke-width="3" stroke-linecap="round"/>
+  <path d="M13 30.5l3.5 3.5 6-6.5" fill="none" stroke="#5ad1a5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="27" y1="31" x2="36" y2="31" stroke="#8b93a7" stroke-width="3" stroke-linecap="round"/>
+</svg>

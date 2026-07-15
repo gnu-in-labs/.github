@@ -1,0 +1,6 @@
+{
+  "name": "GNU.IN basic checks",
+  "description": "Starter CI for gnu-in-labs repositories: run lint, build, and test commands on pushes and pull requests against the default branch.",
+  "iconName": "basic-checks",
+  "categories": ["Automation"]
+}
