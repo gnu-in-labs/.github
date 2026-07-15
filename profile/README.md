@@ -16,6 +16,10 @@ GNU.IN work is experimental and becoming public in stages.
 
 The public goal is not to sound more mature than the work. The goal is to make the work easier to inspect, test, correct, and improve.
 
+<p align="center">
+  <img src="./assets/showcase-board.svg" alt="Public surfaces board: gnu6.live is online as the public web and services entrypoint, the .github repository is public with organization defaults, and Gnosis.OS is an experimental desktop runtime with public-readiness in progress." width="100%">
+</p>
+
 | Surface | Status | Purpose |
 | --- | --- | --- |
 | [gnu6.live](https://gnu6.live) | Online | Public web and services entrypoint for GNU.IN experiments. |
@@ -44,7 +48,7 @@ The standard is not fake expertise. The standard is turning exploration into rea
 ## Operating model
 
 <p align="center">
-  <img src="./assets/operating-model.svg" alt="Operating model: human intent, agent draft, source control, verification, and human-gated promotion." width="100%">
+  <img src="./assets/operating-model.svg" alt="Operating model: human intent, agent draft, source control, verification, human gate, promotion, and rollback — live changes are bounded by evidence and approval." width="100%">
 </p>
 
 Agents are useful when they make work easier to inspect. They are dangerous when they hide risk behind fluent output.
