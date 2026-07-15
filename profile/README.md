@@ -19,7 +19,7 @@ The public goal is not to sound more mature than the work. The goal is to make t
 | Surface | Status | Purpose |
 | --- | --- | --- |
 | [gnu6.live](https://gnu6.live) | Online | Public web and services entrypoint for GNU.IN experiments. |
-| `.github` | Public | Organization profile, contribution defaults, security policy, and issue templates. |
+| `.github` | Public | Organization profile, contribution defaults, security policy, support policy, issue templates, and starter workflow templates. |
 | Gnosis.OS | Public-readiness in progress | Experimental local-first desktop runtime and shell environment. Claims are being shaped before broader exposure. |
 
 ## Principles
