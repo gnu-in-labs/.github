@@ -1,70 +1,146 @@
-<svg width="1280" height="280" viewBox="0 0 1280 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">gnu.in.labs operating model</title>
-  <desc id="desc">A five step rail: human intent defines goals and constraints, agents draft reviewable changes, source control records everything, verification produces evidence, and promotion stays human-gated with rollback paths.</desc>
+<svg width="1280" height="520" viewBox="0 0 1280 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GNU.IN operating model</title>
+  <desc id="desc">Seven numbered steps inside an evidence and approval boundary: human intent, agent draft, source control, verification, human gate, promotion, and rollback. Live changes are bounded by evidence and approval.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="280" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#071013"/>
-      <stop offset="0.55" stop-color="#141C24"/>
-      <stop offset="1" stop-color="#241A20"/>
+    <linearGradient id="paper" x1="0" y1="520" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F1E3"/>
+      <stop offset="0.62" stop-color="#F8F2E6"/>
+      <stop offset="1" stop-color="#F9E7CF"/>
     </linearGradient>
-    <linearGradient id="rail" x1="60" y1="140" x2="1240" y2="140" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#55D6BE"/>
-      <stop offset="0.28" stop-color="#A6E22E"/>
-      <stop offset="0.52" stop-color="#F2C14E"/>
-      <stop offset="0.76" stop-color="#F78154"/>
-      <stop offset="1" stop-color="#B48EED"/>
-    </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" stroke="#FFFFFF" stroke-opacity="0.05"/>
-    </pattern>
   </defs>
+  <rect width="1280" height="520" fill="url(#paper)"/>
 
-  <rect width="1280" height="280" rx="28" fill="url(#bg)"/>
-  <rect width="1280" height="280" rx="28" fill="url(#grid)"/>
-  <path d="M70 148 H1210" stroke="url(#rail)" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+  <!-- header -->
+  <g transform="translate(84,30)">
+    <polygon points="13,1 24,7.5 13,14 2,7.5" fill="#FF8A3D"/>
+    <polygon points="2,7.5 13,14 13,27 2,20.5" fill="#E05500"/>
+    <polygon points="13,14 24,7.5 24,20.5 13,27" fill="#FF6A00"/>
+  </g>
+  <text x="128" y="50" fill="#3A3F49" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="800" letter-spacing="2.6">GNU.IN LABS · OPERATING MODEL · PUBLIC SURFACE</text>
+  <text x="1196" y="50" text-anchor="end" fill="#8A8273" font-family="IBM Plex Mono, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="12" font-weight="600" letter-spacing="1.2">agents assist · humans approve</text>
 
+  <text x="82" y="126" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="54" font-weight="800" letter-spacing="-1.5" fill="#22252D">GNU.IN <tspan fill="#FF6A00">Operating Model</tspan></text>
+  <text x="84" y="162" fill="#5F6B7A" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="19">Human intent. Reviewable automation. Verification. Human-gated promotion.</text>
+
+  <!-- boundary -->
+  <rect x="36" y="206" width="1208" height="246" rx="24" fill="none" stroke="#FF6A00" stroke-width="1.8" stroke-dasharray="7 7" opacity="0.75"/>
+  <rect x="464" y="190" width="352" height="32" rx="16" fill="#FFFFFF" stroke="#E7E1D2" stroke-width="1.5"/>
+  <text x="640" y="211" text-anchor="middle" fill="#D45A00" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11.5" font-weight="850" letter-spacing="2">EVIDENCE &amp; APPROVAL BOUNDARY</text>
+
+  <!-- steps -->
   <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
-    <g>
-      <rect x="60" y="84" width="204" height="128" rx="18" fill="#0B1518" fill-opacity="0.97" stroke="#55D6BE" stroke-opacity="0.44"/>
-      <rect x="82" y="104" width="60" height="8" rx="4" fill="#55D6BE"/>
-      <text x="82" y="146" fill="#F7FBF7" font-size="18" font-weight="850">human intent</text>
-      <text x="82" y="172" fill="#BFE9DD" font-size="13" font-weight="700">goal, constraints, and</text>
-      <text x="82" y="192" fill="#BFE9DD" font-size="13" font-weight="700">stopping criteria</text>
+    <!-- 01 human intent -->
+    <g transform="translate(58,236)">
+      <rect width="152" height="182" rx="16" fill="#FFFFFF" stroke="#E7E1D2" stroke-width="1.5"/>
+      <text x="16" y="28" fill="#FF6A00" font-family="IBM Plex Mono, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" font-weight="700" letter-spacing="2">01</text>
+      <text x="16" y="52" fill="#22252D" font-size="15" font-weight="850">Human Intent</text>
+      <g stroke="#FF6A00" stroke-width="2.2" fill="none" stroke-linecap="round" transform="translate(76,92)">
+        <circle cx="0" cy="-6" r="7"/>
+        <path d="M-11 12a11 11 0 0 1 22 0"/>
+        <path d="M-20 -14v-4h4 M20 -14v-4h-4 M-20 14v4h4 M20 14v4h-4"/>
+      </g>
+      <rect x="16" y="122" width="120" height="3" rx="1.5" fill="#FF6A00"/>
+      <text x="16" y="146" fill="#5F6B7A" font-size="11.5">goal, constraints,</text>
+      <text x="16" y="163" fill="#5F6B7A" font-size="11.5">stopping criteria</text>
     </g>
-    <g>
-      <rect x="304" y="84" width="204" height="128" rx="18" fill="#0B1518" fill-opacity="0.97" stroke="#A6E22E" stroke-opacity="0.44"/>
-      <rect x="326" y="104" width="60" height="8" rx="4" fill="#A6E22E"/>
-      <text x="326" y="146" fill="#F7FBF7" font-size="18" font-weight="850">agent draft</text>
-      <text x="326" y="172" fill="#DDEFB8" font-size="13" font-weight="700">inspect context, prepare</text>
-      <text x="326" y="192" fill="#DDEFB8" font-size="13" font-weight="700">reviewable changes</text>
+    <!-- 02 agent draft -->
+    <g transform="translate(230,236)">
+      <rect width="152" height="182" rx="16" fill="#FFFFFF" stroke="#E7E1D2" stroke-width="1.5"/>
+      <text x="16" y="28" fill="#FF6A00" font-family="IBM Plex Mono, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" font-weight="700" letter-spacing="2">02</text>
+      <text x="16" y="52" fill="#22252D" font-size="15" font-weight="850">Agent Draft</text>
+      <g stroke="#FF6A00" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(76,92)">
+        <rect x="-22" y="-16" width="44" height="32" rx="6"/>
+        <path d="M-12 -6l6 6 -6 6 M2 8h10"/>
+      </g>
+      <rect x="16" y="122" width="120" height="3" rx="1.5" fill="#FF6A00"/>
+      <text x="16" y="146" fill="#5F6B7A" font-size="11.5">inspect context,</text>
+      <text x="16" y="163" fill="#5F6B7A" font-size="11.5">propose changes</text>
     </g>
-    <g>
-      <rect x="548" y="84" width="204" height="128" rx="18" fill="#0B1518" fill-opacity="0.97" stroke="#F2C14E" stroke-opacity="0.44"/>
-      <rect x="570" y="104" width="60" height="8" rx="4" fill="#F2C14E"/>
-      <text x="570" y="146" fill="#F7FBF7" font-size="18" font-weight="850">source control</text>
-      <text x="570" y="172" fill="#FFE3A3" font-size="13" font-weight="700">every change recorded,</text>
-      <text x="570" y="192" fill="#FFE3A3" font-size="13" font-weight="700">nothing lands silently</text>
+    <!-- 03 source control -->
+    <g transform="translate(402,236)">
+      <rect width="152" height="182" rx="16" fill="#FFFFFF" stroke="#E7E1D2" stroke-width="1.5"/>
+      <text x="16" y="28" fill="#FF6A00" font-family="IBM Plex Mono, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" font-weight="700" letter-spacing="2">03</text>
+      <text x="16" y="52" fill="#22252D" font-size="15" font-weight="850">Source Control</text>
+      <g stroke="#22252D" stroke-width="2.2" fill="none" transform="translate(76,92)">
+        <circle cx="-12" cy="-10" r="6"/>
+        <circle cx="-12" cy="12" r="6"/>
+        <path d="M-12 -4v10 M-6 -10h10a8 8 0 0 1 8 8v2"/>
+        <circle cx="12" cy="8" r="5" fill="#FF6A00" stroke="none"/>
+      </g>
+      <rect x="16" y="122" width="120" height="3" rx="1.5" fill="#FF6A00"/>
+      <text x="16" y="146" fill="#5F6B7A" font-size="11.5">commit, diff,</text>
+      <text x="16" y="163" fill="#5F6B7A" font-size="11.5">review trail</text>
     </g>
-    <g>
-      <rect x="792" y="84" width="204" height="128" rx="18" fill="#0B1518" fill-opacity="0.97" stroke="#F78154" stroke-opacity="0.44"/>
-      <rect x="814" y="104" width="60" height="8" rx="4" fill="#F78154"/>
-      <text x="814" y="146" fill="#F7FBF7" font-size="18" font-weight="850">verification</text>
-      <text x="814" y="172" fill="#FFD0C2" font-size="13" font-weight="700">tests, builds, manifests,</text>
-      <text x="814" y="192" fill="#FFD0C2" font-size="13" font-weight="700">reviews as evidence</text>
+    <!-- 04 verification -->
+    <g transform="translate(574,236)">
+      <rect width="152" height="182" rx="16" fill="#FFFFFF" stroke="#E7E1D2" stroke-width="1.5"/>
+      <text x="16" y="28" fill="#FF6A00" font-family="IBM Plex Mono, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" font-weight="700" letter-spacing="2">04</text>
+      <text x="16" y="52" fill="#22252D" font-size="15" font-weight="850">Verification</text>
+      <g stroke="#22252D" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(76,92)">
+        <path d="M0 -18l16 6v10c0 9 -7 16 -16 20 -9 -4 -16 -11 -16 -20v-10z"/>
+        <path d="M-7 0l5 5 9 -10" stroke="#FF6A00"/>
+      </g>
+      <rect x="16" y="122" width="120" height="3" rx="1.5" fill="#FF6A00"/>
+      <text x="16" y="146" fill="#5F6B7A" font-size="11.5">tests, builds,</text>
+      <text x="16" y="163" fill="#5F6B7A" font-size="11.5">manifests, policy</text>
     </g>
-    <g>
-      <rect x="1036" y="84" width="204" height="128" rx="18" fill="#0B1518" fill-opacity="0.97" stroke="#B48EED" stroke-opacity="0.44"/>
-      <rect x="1058" y="104" width="60" height="8" rx="4" fill="#B48EED"/>
-      <text x="1058" y="146" fill="#F7FBF7" font-size="18" font-weight="850">promotion</text>
-      <text x="1058" y="172" fill="#E7D9FF" font-size="13" font-weight="700">human-gated, with</text>
-      <text x="1058" y="192" fill="#E7D9FF" font-size="13" font-weight="700">rollback paths included</text>
+    <!-- 05 human gate -->
+    <g transform="translate(746,236)">
+      <rect width="152" height="182" rx="16" fill="#FFFFFF" stroke="#E7E1D2" stroke-width="1.5"/>
+      <text x="16" y="28" fill="#FF6A00" font-family="IBM Plex Mono, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" font-weight="700" letter-spacing="2">05</text>
+      <text x="16" y="52" fill="#22252D" font-size="15" font-weight="850">Human Gate</text>
+      <g stroke="#22252D" stroke-width="2.2" fill="none" stroke-linecap="round" transform="translate(76,92)">
+        <rect x="-14" y="-4" width="28" height="22" rx="5"/>
+        <path d="M-8 -4v-6a8 8 0 0 1 16 0v6"/>
+        <circle cx="0" cy="7" r="2.6" fill="#FF6A00" stroke="none"/>
+      </g>
+      <rect x="16" y="122" width="120" height="3" rx="1.5" fill="#FF6A00"/>
+      <text x="16" y="146" fill="#5F6B7A" font-size="11.5">approve before</text>
+      <text x="16" y="163" fill="#5F6B7A" font-size="11.5">apply</text>
+    </g>
+    <!-- 06 promotion -->
+    <g transform="translate(918,236)">
+      <rect width="152" height="182" rx="16" fill="#FFFFFF" stroke="#E7E1D2" stroke-width="1.5"/>
+      <text x="16" y="28" fill="#FF6A00" font-family="IBM Plex Mono, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" font-weight="700" letter-spacing="2">06</text>
+      <text x="16" y="52" fill="#22252D" font-size="15" font-weight="850">Promotion</text>
+      <g stroke="#22252D" stroke-width="2.2" fill="none" transform="translate(76,92)">
+        <circle cx="0" cy="0" r="17"/>
+        <path d="M-17 0h34 M0 -17c6 5 6 29 0 34 M0 -17c-6 5 -6 29 0 34"/>
+        <circle cx="12" cy="-2" r="4.5" fill="#FF6A00" stroke="none"/>
+      </g>
+      <rect x="16" y="122" width="120" height="3" rx="1.5" fill="#FF6A00"/>
+      <text x="16" y="146" fill="#5F6B7A" font-size="11.5">staged release</text>
+      <text x="16" y="163" fill="#5F6B7A" font-size="11.5">or live mutation</text>
+    </g>
+    <!-- 07 rollback -->
+    <g transform="translate(1090,236)">
+      <rect width="152" height="182" rx="16" fill="#FFFFFF" stroke="#E7E1D2" stroke-width="1.5"/>
+      <text x="16" y="28" fill="#FF6A00" font-family="IBM Plex Mono, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" font-weight="700" letter-spacing="2">07</text>
+      <text x="16" y="52" fill="#22252D" font-size="15" font-weight="850">Rollback</text>
+      <g stroke="#22252D" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(76,92)">
+        <path d="M14 10a16 16 0 1 1 -2 -18"/>
+        <path d="M4 -12l9 4 -4 9" stroke="#FF6A00"/>
+      </g>
+      <rect x="16" y="122" width="120" height="3" rx="1.5" fill="#FF6A00"/>
+      <text x="16" y="146" fill="#5F6B7A" font-size="11.5">backup, rollback,</text>
+      <text x="16" y="163" fill="#5F6B7A" font-size="11.5">restore path</text>
+    </g>
+    <!-- arrows -->
+    <g fill="#FF6A00">
+      <path d="M212 327 h8 m0 0 l-5 -4 v8 z"/><path d="M214 323 l8 4 -8 4 z"/>
+      <path d="M386 323 l8 4 -8 4 z"/>
+      <path d="M558 323 l8 4 -8 4 z"/>
+      <path d="M730 323 l8 4 -8 4 z"/>
+      <path d="M902 323 l8 4 -8 4 z"/>
+      <path d="M1074 323 l8 4 -8 4 z"/>
     </g>
   </g>
 
-  <g fill="#F7FBF7" fill-opacity="0.55">
-    <path d="M298 148 l-12 -7 v14 z"/>
-    <path d="M542 148 l-12 -7 v14 z"/>
-    <path d="M786 148 l-12 -7 v14 z"/>
-    <path d="M1030 148 l-12 -7 v14 z"/>
+  <!-- bounded pill -->
+  <g>
+    <rect x="408" y="470" width="464" height="36" rx="18" fill="#EAF2E4" stroke="#C6D8BA" stroke-width="1.5"/>
+    <circle cx="432" cy="488" r="8" fill="none" stroke="#4C7A3F" stroke-width="2"/>
+    <path d="M428.5 488l2.5 2.5 4.5 -5" stroke="#4C7A3F" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="450" y="493" fill="#3F5C33" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11" font-weight="850" letter-spacing="1.6">LIVE CHANGES ARE BOUNDED BY EVIDENCE AND APPROVAL</text>
   </g>
 </svg>

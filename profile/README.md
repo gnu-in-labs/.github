@@ -48,7 +48,7 @@ The standard is not fake expertise. The standard is turning exploration into rea
 ## Operating model
 
 <p align="center">
-  <img src="./assets/operating-model.svg" alt="Operating model: human intent, agent draft, source control, verification, and human-gated promotion." width="100%">
+  <img src="./assets/operating-model.svg" alt="Operating model: human intent, agent draft, source control, verification, human gate, promotion, and rollback — live changes are bounded by evidence and approval." width="100%">
 </p>
 
 Agents are useful when they make work easier to inspect. They are dangerous when they hide risk behind fluent output.

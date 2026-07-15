@@ -1,52 +1,61 @@
-<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1280" height="460" viewBox="0 0 1280 460" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">gnu.in.labs public surfaces board</title>
-  <desc id="desc">Three public surfaces: gnu6.live is online as the public web and services entrypoint, the .github repository is public with organization defaults, and Gnosis.OS is an experimental desktop runtime with public readiness in progress.</desc>
+  <desc id="desc">Public lab, not a product fantasy. Status labels, evidence, and contracts without implying a finished OS: gnu6.live is online, the .github defaults are public, and Gnosis.OS is in progress.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#071013"/>
-      <stop offset="0.55" stop-color="#141C24"/>
-      <stop offset="1" stop-color="#241A20"/>
+    <linearGradient id="paper" x1="0" y1="460" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F1E3"/>
+      <stop offset="0.62" stop-color="#F8F2E6"/>
+      <stop offset="1" stop-color="#F9E7CF"/>
     </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" stroke="#FFFFFF" stroke-opacity="0.05"/>
-    </pattern>
   </defs>
+  <rect width="1280" height="460" fill="url(#paper)"/>
 
-  <rect width="1280" height="360" rx="28" fill="url(#bg)"/>
-  <rect width="1280" height="360" rx="28" fill="url(#grid)"/>
+  <!-- header -->
+  <g transform="translate(84,30)">
+    <polygon points="13,1 24,7.5 13,14 2,7.5" fill="#FF8A3D"/>
+    <polygon points="2,7.5 13,14 13,27 2,20.5" fill="#E05500"/>
+    <polygon points="13,14 24,7.5 24,20.5 13,27" fill="#FF6A00"/>
+  </g>
+  <text x="128" y="50" fill="#3A3F49" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="800" letter-spacing="2.6">GNU.IN LABS · SHOWCASE BOARD · STATUS FIRST</text>
+  <text x="1196" y="50" text-anchor="end" fill="#8A8273" font-family="IBM Plex Mono, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="12" font-weight="600" letter-spacing="1.2">snippets only · no product fantasy</text>
 
   <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
-    <text x="60" y="62" fill="#F7FBF7" font-size="19" font-weight="850">public surfaces</text>
-    <text x="242" y="62" fill="#8FA6A0" font-size="14" font-weight="700">status is stated, not implied</text>
+    <text x="82" y="140" fill="#22252D" font-size="56" font-weight="800" letter-spacing="-1.5">Public lab, not a product fantasy<tspan fill="#FF6A00">.</tspan></text>
+    <text x="84" y="180" fill="#5F6B7A" font-size="19">Status labels, evidence, and contracts. Do not imply a finished OS.</text>
+    <rect x="84" y="202" width="64" height="5" rx="2.5" fill="#FF6A00"/>
+  </g>
 
-    <g>
-      <rect x="60" y="92" width="380" height="220" rx="20" fill="#0B1518" fill-opacity="0.9" stroke="#55D6BE" stroke-opacity="0.44"/>
-      <rect x="88" y="118" width="94" height="32" rx="16" fill="#55D6BE" fill-opacity="0.16" stroke="#55D6BE" stroke-opacity="0.5"/>
-      <text x="110" y="140" fill="#D7FFF1" font-size="14" font-weight="850">online</text>
-      <text x="88" y="196" fill="#F7FBF7" font-size="26" font-weight="850">gnu6.live</text>
-      <text x="88" y="232" fill="#BFE9DD" font-size="14" font-weight="700">public web and services</text>
-      <text x="88" y="254" fill="#BFE9DD" font-size="14" font-weight="700">entrypoint for GNU.IN</text>
-      <text x="88" y="276" fill="#BFE9DD" font-size="14" font-weight="700">experiments</text>
+  <!-- surface cards -->
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <g transform="translate(84,244)">
+      <rect width="356" height="164" rx="18" fill="#FFFFFF" stroke="#E7E1D2" stroke-width="1.5"/>
+      <rect x="0" y="22" width="5" height="120" rx="2.5" fill="#4169E1"/>
+      <text x="28" y="42" fill="#22252D" font-size="20" font-weight="850">gnu6.live</text>
+      <rect x="252" y="22" width="76" height="28" rx="14" fill="#DFE6F9"/>
+      <text x="290" y="40" text-anchor="middle" fill="#2C4CB8" font-size="11" font-weight="850" letter-spacing="1.4">ONLINE</text>
+      <text x="28" y="78" fill="#5F6B7A" font-size="14">public web and services</text>
+      <text x="28" y="100" fill="#5F6B7A" font-size="14">entrypoint for GNU.IN experiments</text>
+      <text x="28" y="136" fill="#8A8273" font-family="IBM Plex Mono, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="12">https://gnu6.live</text>
     </g>
-
-    <g>
-      <rect x="460" y="92" width="380" height="220" rx="20" fill="#0B1518" fill-opacity="0.9" stroke="#F2C14E" stroke-opacity="0.44"/>
-      <rect x="488" y="118" width="94" height="32" rx="16" fill="#F2C14E" fill-opacity="0.16" stroke="#F2C14E" stroke-opacity="0.5"/>
-      <text x="510" y="140" fill="#FFE3A3" font-size="14" font-weight="850">public</text>
-      <text x="488" y="196" fill="#F7FBF7" font-size="26" font-weight="850">.github</text>
-      <text x="488" y="232" fill="#FFE3A3" font-size="14" font-weight="700">organization profile,</text>
-      <text x="488" y="254" fill="#FFE3A3" font-size="14" font-weight="700">contribution defaults,</text>
-      <text x="488" y="276" fill="#FFE3A3" font-size="14" font-weight="700">security and templates</text>
+    <g transform="translate(462,244)">
+      <rect width="356" height="164" rx="18" fill="#FFFFFF" stroke="#E7E1D2" stroke-width="1.5"/>
+      <rect x="0" y="22" width="5" height="120" rx="2.5" fill="#5F7F52"/>
+      <text x="28" y="42" fill="#22252D" font-size="20" font-weight="850">.github</text>
+      <rect x="252" y="22" width="76" height="28" rx="14" fill="#E4EBDD"/>
+      <text x="290" y="40" text-anchor="middle" fill="#47613C" font-size="11" font-weight="850" letter-spacing="1.4">PUBLIC</text>
+      <text x="28" y="78" fill="#5F6B7A" font-size="14">organization profile, contribution</text>
+      <text x="28" y="100" fill="#5F6B7A" font-size="14">defaults, security, templates</text>
+      <text x="28" y="136" fill="#8A8273" font-family="IBM Plex Mono, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="12">applies org-wide</text>
     </g>
-
-    <g>
-      <rect x="860" y="92" width="380" height="220" rx="20" fill="#0B1518" fill-opacity="0.9" stroke="#B48EED" stroke-opacity="0.44"/>
-      <rect x="888" y="118" width="130" height="32" rx="16" fill="#B48EED" fill-opacity="0.16" stroke="#B48EED" stroke-opacity="0.5"/>
-      <text x="906" y="140" fill="#E7D9FF" font-size="14" font-weight="850">in progress</text>
-      <text x="888" y="196" fill="#F7FBF7" font-size="26" font-weight="850">Gnosis.OS</text>
-      <text x="888" y="232" fill="#E7D9FF" font-size="14" font-weight="700">experimental local-first</text>
-      <text x="888" y="254" fill="#E7D9FF" font-size="14" font-weight="700">desktop runtime; public</text>
-      <text x="888" y="276" fill="#E7D9FF" font-size="14" font-weight="700">readiness being shaped</text>
+    <g transform="translate(840,244)">
+      <rect width="356" height="164" rx="18" fill="#FFFFFF" stroke="#E7E1D2" stroke-width="1.5"/>
+      <rect x="0" y="22" width="5" height="120" rx="2.5" fill="#FF6A00"/>
+      <text x="28" y="42" fill="#22252D" font-size="20" font-weight="850">Gnosis.OS</text>
+      <rect x="216" y="22" width="112" height="28" rx="14" fill="#FFE7D6"/>
+      <text x="272" y="40" text-anchor="middle" fill="#C35000" font-size="11" font-weight="850" letter-spacing="1.4">IN PROGRESS</text>
+      <text x="28" y="78" fill="#5F6B7A" font-size="14">experimental local-first desktop</text>
+      <text x="28" y="100" fill="#5F6B7A" font-size="14">runtime and shell environment</text>
+      <text x="28" y="136" fill="#8A8273" font-family="IBM Plex Mono, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="12">public-readiness staged</text>
     </g>
   </g>
 </svg>
