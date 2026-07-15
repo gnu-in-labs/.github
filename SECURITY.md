@@ -9,7 +9,7 @@ There are no broadly supported stable releases yet.
 | Channel | Security status |
 | --- | --- |
 | Public organization/profile files | Best-effort review |
-| Experimental GNU.IN OS work | Best-effort review while public-readiness is being prepared |
+| Experimental Gnosis.OS work | Best-effort review while public-readiness is being prepared |
 | Undocumented local installs, forks, or private runtime modifications | Not supported |
 
 Future public releases should define their own support window, verification instructions, and end-of-support policy.
