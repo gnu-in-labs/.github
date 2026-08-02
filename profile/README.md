@@ -1,123 +1,89 @@
 <p align="center">
-  <img src="./assets/gnu-in-labs-hero.svg" alt="gnu.in.labs: local-first desktop systems, visible automation, and user-owned computing." width="100%">
+  <img src="./assets/gnu-in-labs-hero.svg" alt="gnu.in.labs public profile: open engineering, local-first systems, public documentation, and human authority over change." width="100%">
 </p>
 
 # gnu.in.labs
 
-**gnu.in.labs builds local-first desktop systems, public infrastructure, and reviewable automation for people who want their computers to remain under their control.**
+**gnu.in.labs inc. helps people and organizations understand, modify, host, and master their tools, data, and AI.**
 
-This is a public-facing lab for Gnosis.OS and related infrastructure experiments. The work is serious, but it is not being presented as a finished consumer operating system, a production distribution, or a safe autonomous administrator.
+We turn that responsibility into open engineering, inspectable documentation, local-first system work, and explicit human authority over consequential change. This profile is the concise index; [gnu.in.docs](https://gnu-in-labs.github.io/gnu.in-shell-docs/) is the detailed public claim-and-evidence authority.
 
-Modern computers already contain powerful local resources: CPU, RAM, GPU, storage, sensors, files, applications, and user context. GNU.IN explores how those resources can be made more inspectable, scriptable, reversible, and useful without quietly turning the user's machine into a passive client for someone else's platform.
+## What we build
 
-## Current status
+We work on tools and methods that make complex computing systems easier to inspect, adapt, operate, and reverse. Public descriptions separate what can be accessed now, how mature it is, and what evidence supports it.
 
-GNU.IN work is experimental and becoming public in stages.
+The work is product-oriented without treating research, private implementation, or a bounded demonstration as a finished public release.
 
-The public goal is not to sound more mature than the work. The goal is to make the work easier to inspect, test, correct, and improve.
+## Responsibility surfaces
 
-<p align="center">
-  <img src="./assets/showcase-board.svg" alt="Public surfaces board: gnu6.live is online as the public web and services entrypoint, the .github repository is public with organization defaults, and Gnosis.OS is an experimental desktop runtime with public-readiness in progress." width="100%">
-</p>
-
-| Surface | Status | Purpose |
+| Surface | Responsibility | State |
 | --- | --- | --- |
-| [gnu6.live](https://gnu6.live) | Online | Public web and services entrypoint for GNU.IN experiments. |
-| `.github` | Public | Organization profile, contribution defaults, security policy, support policy, issue templates, and starter workflow templates. |
-| Gnosis.OS | Public-readiness in progress | Experimental local-first desktop runtime and shell environment. Claims are being shaped before broader exposure. |
+| gnu.in.labs | research, open engineering, documentation, methods, and experiments | organization surface |
+| `gnosis.OS` | local Linux-session integration program | active development; no approved public release |
+| `gnu6.live` | public information, documentation, references, status orientation, and authorized private entry | available |
 
-## Principles
-
-GNU.IN work follows a few basic rules.
-
-**Local-first by default.**  
-Networked services can be useful, but local hardware and user data should not become invisible raw material for remote systems.
-
-**Agent-assisted, not agent-ruled.**  
-AI may inspect, summarize, draft, stage, and explain work. It is not the final authority over live systems.
-
-**Visible automation.**  
-Automation should leave evidence: source changes, logs, manifests, test results, rollback paths, and human-readable explanations.
-
-**Conservative public claims.**  
-If something is experimental, incomplete, unsupported, or unverified, the public page should say so.
-
-**Learning in public is allowed.**  
-The standard is not fake expertise. The standard is turning exploration into readable code, tests, documentation, review, and release evidence.
-
-## Operating model
+## Current public surfaces
 
 <p align="center">
-  <img src="./assets/operating-model.svg" alt="Operating model: human intent, agent draft, source control, verification, human gate, promotion, and rollback — live changes are bounded by evidence and approval." width="100%">
+  <img src="./assets/showcase-board.svg" alt="Status board: gnu6.live is available, gnu.in.docs is public and being refreshed, and gnosis.OS is in active development with no approved public release." width="100%">
 </p>
 
-Agents are useful when they make work easier to inspect. They are dangerous when they hide risk behind fluent output.
+- [gnu6.live](https://gnu6.live) — public information, documentation routes, references, status orientation, and authorized-entry context.
+- [gnu.in.docs](https://gnu-in-labs.github.io/gnu.in-shell-docs/) — bilingual public registry for claims, evidence, limitations, and direction.
+- [This organization profile](https://github.com/gnu-in-labs/.github) — concise mission, responsibility, product map, and review routes.
+- `gnosis.OS` — active private development; no approved public release.
 
-The preferred GNU.IN pattern is:
+Availability is not the same as implementation maturity. A public page may describe private development without exposing private source, topology, or operational details.
 
-1. Human intent defines the goal, constraints, and stopping criteria.
-2. Agents inspect context, draft plans, and prepare reviewable changes.
-3. Source control records the change.
-4. Tests, builds, manifests, and reviews provide evidence.
-5. Live mutation requires explicit human approval.
-6. Promotion paths include rollback, backup, or recovery steps.
+## Product and program map
 
-## Gnosis.OS direction
+| Name | Role and bounded state |
+| --- | --- |
+| `the lab` | Adopted architecture for research and development; not a public runtime. |
+| `gnosis` | Planning and coordination direction under human authority; not an autonomous administrator. |
+| `gnosis engine` | Central integration work in active private development; not human authority, system root, or a general agent. |
+| `gnosis sentinel` | Watchdog and diagnostic context in active private development; not mutation authority. |
+| `belt.in` | Welcome, update, and maintenance application in active private development; live mutation remains gated. |
+| `mar.in` | Planned native-browser direction; Servo integration is incomplete. |
+| `gnoclip` | Private Python control-and-research prototype with checkpoint A; the React Ink direction is planned, not shipped. |
+| `gnomon` | Event, receipt, and evidence-ledger contracts exist; it does not decide, authorize, or execute, and persistence is not publicly verified. |
 
-Gnosis.OS is a local-first desktop runtime direction. It is not a Linux replacement claim.
+## How claims are published
 
-It explores:
+Every public claim is classified on three independent axes:
 
-- a Hyprland and Quickshell user session that can explain its own state;
-- local AI as a user-owned capability rather than a hidden cloud dependency;
-- shell and backend services that expose state through explicit contracts;
-- build, staging, promotion, backup, and rollback discipline;
-- reviewable automation for desktop configuration and system maintenance;
-- an interface that a power user can own, and that a non-expert could eventually want to use.
+1. **Access** — what a visitor can inspect or use now.
+2. **Maturity** — implemented, verified locally, architecture adopted, in development, or planned.
+3. **Evidence** — public, maintainer-verified private, or unavailable.
 
-Right now, Gnosis.OS should be read as a research-product: coherent enough to deserve real engineering practice, but not mature enough to promise broad user support.
+Public evidence is linked when it is safe and immutable. Private implementation facts are labelled as maintainer-verified and never gain a public link merely to make a stronger impression. Limitations travel with the claim.
 
 ## What this is not
 
-GNU.IN is not currently:
+gnu.in.labs is not claiming that:
 
-- a production-ready distribution;
-- a safe autonomous system administrator;
-- a cloud AI platform;
-- a replacement for careful security review;
-- a promise that every public idea is already implemented;
-- a claim that local-first means network-free;
-- a claim that AI output is trustworthy without review.
+- `gnosis.OS` is a kernel, distribution, compositor, or autonomous agent;
+- private development is a public release;
+- a portal simulation proves complete runtime integration;
+- `gnu6.live` is an administrative console or public control plane;
+- AI output can replace review, evidence, consent, rollback, or human authority;
+- every direction in the product map is already implemented.
 
-## Review standards
+<p align="center">
+  <img src="./assets/operating-model.svg" alt="Review flow: human intent, agent draft, source control, verification, human gate, promotion, and rollback inside an evidence and approval boundary." width="100%">
+</p>
 
-Comments and corrections are welcome, especially when they identify concrete risk, missing evidence, unclear wording, accessibility problems, or better implementation paths.
+## Review, security, and contact
 
-Useful feedback looks like:
+Corrections are welcome when they identify an unsupported claim, unclear limitation, accessibility problem, security risk, or stronger public evidence.
 
-- "This claim needs evidence or should be softened."
-- "This workflow needs a rollback step."
-- "This automation boundary is too broad."
-- "This README is visually nice, but the text is not accessible enough."
-- "This code path needs tests before it becomes a public promise."
-- "This agent action should be staged instead of applied directly."
-
-## Security
-
-GNU.IN treats automation, local AI, desktop control, and system mutation as security-sensitive areas.
-
-Please do not assume that an experimental public repository is safe for production use. Review code, scripts, permissions, service boundaries, and rollback paths before running anything on a system you rely on.
-
-Security reports can be sent to:
-
-[security@gnu6.live](mailto:security@gnu6.live)
-
-## Contact
-
+- Documentation: [gnu.in.docs](https://gnu-in-labs.github.io/gnu.in-shell-docs/)
 - Website: [gnu6.live](https://gnu6.live)
 - General contact: [admin@gnu6.live](mailto:admin@gnu6.live)
-- Security contact: [security@gnu6.live](mailto:security@gnu6.live)
+- Security reports: [security@gnu6.live](mailto:security@gnu6.live)
+
+Please review code, permissions, service boundaries, and rollback paths before using experimental work on a system you rely on.
 
 ---
 
-&copy; gnuinlabs inc.
+&copy; gnu.in.labs inc.
