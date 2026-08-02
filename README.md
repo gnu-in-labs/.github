@@ -1,44 +1,32 @@
 <p align="center">
-  <img src="./profile/assets/gnu-in-labs-hero.svg" alt="gnu.in.labs public profile banner" width="100%">
+  <img src="./profile/assets/gnu-in-labs-hero.svg" alt="gnu.in.labs public organization profile banner" width="100%">
 </p>
 
-# gnu.in.labs public profile
+# gnu.in.labs organization profile repository
 
-This repository powers the public GitHub organization profile for `gnu-in-labs`.
+This repository owns the concise GitHub organization index for gnu.in.labs inc. It also contains the profile's paired visual assets and organization-wide community defaults.
 
-It contains the public-facing defaults that should make the organization easier to understand, review, and correct:
+## Surface ownership
 
-- the organization profile in [`profile/README.md`](./profile/README.md);
-- visual assets used by the public profile;
-- default issue templates and their contact routing in [`.github/ISSUE_TEMPLATE/config.yml`](./.github/ISSUE_TEMPLATE/config.yml);
-- the pull request template;
-- contribution, code of conduct, security, support, license, and ownership documents;
-- starter workflow templates in [`workflow-templates/`](./workflow-templates/) offered to all organization repositories.
+- [`profile/README.md`](./profile/README.md) is the concise organization index.
+- [`gnu.in.docs`](https://gnu-in-labs.github.io/gnu.in-shell-docs/) is the bilingual claim and evidence authority.
+- [`gnu6.live`](https://gnu6.live) is the public information and authorized-entry surface.
 
-## Public-page stance
+Repository contents also include issue and pull-request templates, contribution and security guidance, ownership documents, and reusable workflow templates.
 
-The profile should be visually memorable without making inflated claims.
+## Update gate
 
-GNU.IN work can be radical in values and still conservative in public promises:
+1. Verify names against the current naming authority.
+2. Class every claim by access, maturity, and evidence.
+3. Keep private evidence private.
+4. Update duplicated SVG assets together.
+5. Open a pull request and wait for checks.
 
-- say what is experimental;
-- say what is already public;
-- avoid production-ready claims until evidence exists;
-- make automation boundaries explicit;
-- keep the language accessible to reviewers outside the project.
+Public copy must preserve limitations, use meaningful image alternatives, avoid private repository or infrastructure links, and never turn experimental or maintainer-verified work into a public-release claim.
 
-## Update Guidelines
+## Rendered surface
 
-Before changing the public profile:
+GitHub renders [`profile/README.md`](./profile/README.md) on the organization page after reviewed changes reach `main`. This branch and its pull request do not deploy or merge that surface automatically.
 
-- Keep the main public text in English.
-- Check that images have useful `alt` text.
-- Keep visual assets local to this repository when practical.
-- Avoid linking to private repositories as if public visitors can open them.
-- Keep contact and security reporting paths current.
-
-## Live surface
-
-When this repository is pushed to `main`, GitHub renders [`profile/README.md`](./profile/README.md) on the public organization page.
-
-Website: [gnu6.live](https://gnu6.live)
+- Website: [gnu6.live](https://gnu6.live)
+- Documentation: [gnu.in.docs](https://gnu-in-labs.github.io/gnu.in-shell-docs/)
