@@ -62,7 +62,7 @@ Public evidence is linked when it is safe and immutable. Private implementation 
 
 gnu.in.labs is not claiming that:
 
-- `gnosis.OS` is a kernel, distribution, compositor, or autonomous agent;
+- `gnosis.OS` is not a kernel, distribution, compositor, or autonomous agent;
 - private development is a public release;
 - a portal simulation proves complete runtime integration;
 - `gnu6.live` is an administrative console or public control plane;
