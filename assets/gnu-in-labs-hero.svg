@@ -1,6 +1,6 @@
 <svg width="1280" height="560" viewBox="0 0 1280 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">gnu.in.labs organization hero</title>
-  <desc id="desc">Paper-toned banner: gnu.in.labs builds local-first desktop systems, public infrastructure, and reviewable automation. Visible automation, human-gated change, user-owned computing. An evidence board lists gnu6.live online, Gnosis.OS in progress, and the .github defaults as public.</desc>
+  <desc id="desc">Paper-toned banner for gnu.in.labs: open engineering, local-first systems, and public documentation under human authority. The evidence board labels gnu6.live available, gnu.in.docs public with a registry refresh, and gnosis.OS in active development with no approved public release.</desc>
   <defs>
     <linearGradient id="paper" x1="0" y1="560" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
       <stop stop-color="#F7F1E3"/>
@@ -16,22 +16,22 @@
     <polygon points="2,7.5 13,14 13,27 2,20.5" fill="#E05500"/>
     <polygon points="13,14 24,7.5 24,20.5 13,27" fill="#FF6A00"/>
   </g>
-  <text x="128" y="58" fill="#3A3F49" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="800" letter-spacing="2.6">GNU.IN LABS · PUBLIC ORG PROFILE · ORG-WIDE DEFAULTS</text>
+  <text x="128" y="58" fill="#3A3F49" font-family="Space Grotesk, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="800" letter-spacing="2.6">gnu.in.labs · PUBLIC ORG PROFILE · ORG-WIDE DEFAULTS</text>
   <text x="1196" y="58" text-anchor="end" fill="#8A8273" font-family="IBM Plex Mono, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="12" font-weight="600" letter-spacing="1.2">evidence-led · human-gated</text>
   <line x1="84" y1="76" x2="1196" y2="76" stroke="#E2DBC8" stroke-width="1.5"/>
 
   <!-- wordmark -->
-  <text x="78" y="212" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="118" font-weight="800" letter-spacing="-3" fill="#22252D">gnu<tspan fill="#FF6A00">.</tspan>in<tspan fill="#FF6A00">.</tspan>labs</text>
+  <text x="78" y="212" font-family="Space Grotesk, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="118" font-weight="800" letter-spacing="-3" fill="#22252D">gnu<tspan fill="#FF6A00">.</tspan>in<tspan fill="#FF6A00">.</tspan>labs</text>
 
-  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
-    <text x="84" y="272" fill="#22252D" font-size="31" font-weight="800" letter-spacing="-0.5">Local-first desktop systems, public</text>
-    <text x="84" y="312" fill="#22252D" font-size="31" font-weight="800" letter-spacing="-0.5">infrastructure, and reviewable automation<tspan fill="#FF6A00">.</tspan></text>
+  <g font-family="Space Grotesk, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <text x="84" y="272" fill="#22252D" font-size="31" font-weight="800" letter-spacing="-0.5">Open engineering, local-first systems,</text>
+    <text x="84" y="312" fill="#22252D" font-size="31" font-weight="800" letter-spacing="-0.5">and public documentation<tspan fill="#FF6A00">.</tspan></text>
     <rect x="84" y="336" width="64" height="5" rx="2.5" fill="#FF6A00"/>
-    <text x="84" y="386" fill="#5F6B7A" font-size="21">Visible automation. Human-gated change. User-owned computing.</text>
+    <text x="84" y="386" fill="#5F6B7A" font-size="21">Human authority. Inspectable change. Reversible operations.</text>
   </g>
 
   <!-- capability chips -->
-  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+  <g font-family="Space Grotesk, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
     <rect x="84" y="440" width="236" height="66" rx="16" fill="#FFFFFF" stroke="#E7E1D2" stroke-width="1.5"/>
     <rect x="104" y="461" width="24" height="20" rx="5" fill="none" stroke="#FF6A00" stroke-width="2.2"/>
     <path d="M109 467l4 4 -4 4 M117 476h5" stroke="#FF6A00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="translate(0,-1)"/>
@@ -65,32 +65,32 @@
       <polygon points="2,7.5 13,14 13,27 2,20.5" fill="#E05500"/>
       <polygon points="13,14 24,7.5 24,20.5 13,27" fill="#FF6A00"/>
     </g>
-    <text x="944" y="124" fill="#D45A00" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11.5" font-weight="850" letter-spacing="2">EVIDENCE BOARD</text>
+    <text x="944" y="124" fill="#D45A00" font-family="Space Grotesk, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11.5" font-weight="850" letter-spacing="2">EVIDENCE BOARD</text>
   </g>
 
-  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+  <g font-family="Space Grotesk, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
     <rect x="884" y="158" width="316" height="92" rx="16" fill="#FFFFFF" stroke="#E7E1D2" stroke-width="1.5"/>
     <rect x="884" y="174" width="5" height="60" rx="2.5" fill="#4169E1"/>
     <text x="910" y="192" fill="#22252D" font-size="16" font-weight="850">gnu6.live</text>
     <rect x="1106" y="174" width="74" height="26" rx="13" fill="#DFE6F9"/>
-    <text x="1143" y="191" text-anchor="middle" fill="#2C4CB8" font-size="10.5" font-weight="850" letter-spacing="1.4">ONLINE</text>
-    <text x="910" y="216" fill="#5F6B7A" font-size="12.5">public web and services entrypoint</text>
+    <text x="1143" y="191" text-anchor="middle" fill="#2C4CB8" font-size="10.5" font-weight="850" letter-spacing="1.4">AVAILABLE</text>
+    <text x="910" y="216" fill="#5F6B7A" font-size="12.5">public information and documentation</text>
     <text x="910" y="236" fill="#8A8273" font-family="IBM Plex Mono, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11">https://gnu6.live</text>
 
     <rect x="884" y="262" width="316" height="92" rx="16" fill="#FFFFFF" stroke="#E7E1D2" stroke-width="1.5"/>
     <rect x="884" y="278" width="5" height="60" rx="2.5" fill="#FF6A00"/>
-    <text x="910" y="296" fill="#22252D" font-size="16" font-weight="850">Gnosis.OS</text>
+    <text x="910" y="296" fill="#22252D" font-size="16" font-weight="850">gnosis.OS</text>
     <rect x="1072" y="278" width="108" height="26" rx="13" fill="#FFE7D6"/>
-    <text x="1126" y="295" text-anchor="middle" fill="#C35000" font-size="10.5" font-weight="850" letter-spacing="1.4">IN PROGRESS</text>
-    <text x="910" y="320" fill="#5F6B7A" font-size="12.5">experimental local-first desktop runtime</text>
-    <text x="910" y="340" fill="#8A8273" font-family="IBM Plex Mono, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11">public-readiness staged</text>
+    <text x="1126" y="295" text-anchor="middle" fill="#C35000" font-size="10.5" font-weight="850" letter-spacing="1.4">ACTIVE DEV</text>
+    <text x="910" y="320" fill="#5F6B7A" font-size="12.5">local Linux-session integration</text>
+    <text x="910" y="340" fill="#8A8273" font-family="IBM Plex Mono, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11">no approved public release</text>
 
     <rect x="884" y="366" width="316" height="92" rx="16" fill="#FFFFFF" stroke="#E7E1D2" stroke-width="1.5"/>
     <rect x="884" y="382" width="5" height="60" rx="2.5" fill="#5F7F52"/>
-    <text x="910" y="400" fill="#22252D" font-size="16" font-weight="850">.github</text>
+    <text x="910" y="400" fill="#22252D" font-size="16" font-weight="850">gnu.in.docs</text>
     <rect x="1108" y="382" width="72" height="26" rx="13" fill="#E4EBDD"/>
     <text x="1144" y="399" text-anchor="middle" fill="#47613C" font-size="10.5" font-weight="850" letter-spacing="1.4">PUBLIC</text>
-    <text x="910" y="424" fill="#5F6B7A" font-size="12.5">org profile, defaults, security policy</text>
-    <text x="910" y="444" fill="#8A8273" font-family="IBM Plex Mono, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11">applies org-wide</text>
+    <text x="910" y="424" fill="#5F6B7A" font-size="12.5">bilingual claim and evidence authority</text>
+    <text x="910" y="444" fill="#8A8273" font-family="IBM Plex Mono, SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11">registry refresh in progress</text>
   </g>
 </svg>
